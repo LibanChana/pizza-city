@@ -23,8 +23,124 @@
             <a class="active" href=" order.html "><strong>Order Here</strong></a>
         </li>
     </ul>
+    <div class="container">
+        <form action="" id="order">
+            <h2 style="text-align: center;color: red;">Order Now</h2>
+            <div class="card" style="color: blue;">
+                <p>Choose the Pizza Flavour you want</p>
+                <select class="form-control form-control-sm" id="Flavour">
+            <br>
+            <option>select flavour</option>
+            <option value="Chicken Flavour">Chicken flavour</option>
+            <option value="Hawaiian pizza">Hawaiian pizza</option>
+            <option value="Margherita Pizza">Margherita Pizza</option>
+          </select>
+                <p>Choose the size of pizza you want</p>
+                <select class="form-control form-control-sm" id="Size">
+            <br>
+            <option>select size</option>
+            <option value="900">Large </option>
+            <option value="600"> Medium</option>
+            <option value="400">Small</option>
+          </select>
+                <p>Choose crust</p>
+                <select class="form-control form-control-sm" id="Crust">
+          <option>select crust</option>
+          <option value="150">Thin crust @ Ksh.150</option>
+          <option value="200">Thick crust @Ksh.200</option>
+          <option value="250">Stuffed crust @Ksh.250</option>
+        </select>
+                <p>Choose toppings</p>
+                <select class="form-control form-control-sm" id="Topping">
+          <option>select crust</option>
+          <option value="150">Potato @ Ksh.150</option>
+          <option value="170">Mushrooms @Ksh.170</option>
+          <option value="200">Black olives @Ksh.200</option>
+        </select>
 
+            </div>
+            ​
+        </form>
+        <form id="pricing">
+            <option value="one"></option>
+            <div class="form-group">
+                <label for="">Number of Pizza </label>
+                <br>
+                <input type="number" class="form-control" id="number" placeholder="" required min="1" />
+            </div>
+            <button type="button" class="btn btn-success btn-lg" style="margin-left: 40%;" id="checkout">Order Now</button>
+        </form>
+    </div>
+    ​ ​ ​
+    <br><br>
+    <div class="container" id="contain">
+        <div class="col-sm-7" id="orderPut">
 
+            <div class="orderCalculation">
+                <h2>Your Order is:</h2>
+                <div id="your-orders">
+                    <table class="table table-sm  pizzaTable">
+                        <thead>
+                            <tr>
+                                <th scope="col">Flavour</th>
+                                <th scope="col">Size</th>
+                                <th scope="col">Crust</th>
+                                <th scope="col">Topping</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="ordersTaken">
+
+                        </tbody>
+                    </table>
+                    <p class="deliveryCost hidden">
+                        Delivery Cost: Ksh. <span id="delivery-cost"></span>
+                    </p>
+                    <p class="TotalAmount hidden">
+                        Total Amount: Ksh. <span id="totalAmount"></span>
+                    </p>
+                    <br /><br />
+                    <button class="btn btn-success" id="Checkout" onclick="myPizza()">Checkout</button>
+                    <div class="checkout-info hidden">
+                        <h3 id="check">Check form</h3>
+                        <form action="" id="checkoutForm">
+                            <div class="form-group">
+                                <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                                <label for="delivery">Desired Delivery Option</label>
+                                <select class="form-control" id="OptionDelivery" required>
+        <option value="deliver">Home Delivery?</option>
+        <option value="collect">Pick Up</option>
+        </select>
+                            </div>
+                            <button type="submit" class="btn btn-success" id="final-option">Deliver</button>
+                        </form>
+                    </div>
+                    <div class="deliveryLocation hidden">
+                        <form id="locationForm">
+                            <h3>Enter your location</h3>
+                            <div class="form-group">
+                                <label>Area</label>
+                                <input type="text" class="form-control" id="estate" placeholder="Enter Your Area " required />
+                            </div>
+                            <div class="form-group">
+                                <label>Estate</label>
+                                <input type="text" class="form-control" id="estate" placeholder="Enter Your Estate" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">House No.</label>
+                                <input type="text" class="form-control" id="houseNumber" placeholder="Enter Your House No." required />
+                            </div>
+                            ​
+                            <button type="submit" class="btn btn-success" id="submit">Submit</button>
+                        </form>
+                        ​
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    ​
 
 </body>
 
