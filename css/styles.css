@@ -10,9 +10,9 @@
 ul.topnav {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 14px 16px;
     overflow: hidden;
-    background-color: rgba(2, 3, 3, 0.39);
+    background-color: black;
 }
 
 ul.topnav li {
@@ -21,11 +21,12 @@ ul.topnav li {
 
 ul.topnav li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 16px;
     text-decoration: none;
     font-weight: 300;
+    font-size: 24px;
 }
 
 ul.topnav li a:hover:not(.active) {
@@ -38,29 +39,40 @@ ul.topnav li a.active {
 
 ul.topnav li.right {
     float: left;
-}
-
-ul.topnav li.left {
-    float: right;
+    color: white;
     font-size: 24px;
 }
 
-Table {
+
+}
+ul.topnav li.left {
+    float: right;
+    font-size: 36px;
+    color: red
+}
+.container {
+    background-color: lightgoldenrodyellow;
+    /* background-image: url("../images/home.jpeg"); */
+}
+.card {
+    display: block;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.Table {
     background-color: grey;
     color: white;
     text-align: center;
     font-family: "Redressed", cursive;
 }
-
 .welcome {
     text-decoration-color: crimson;
     font-size: 44px;
 }
-
 .media {
     text-align: center;
 }
-
 @media screen and (max-width: 600px) {
     ul.topnav li.right,
     ul.topnav li {

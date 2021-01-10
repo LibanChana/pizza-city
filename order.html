@@ -27,35 +27,35 @@
         <form action="" id="order">
             <h2 style="text-align: center;color: red;">Order Now</h2>
             <div class="card" style="color: blue;">
-                <p>Choose the Pizza Flavour you want</p>
+                <p>Choose the Flavour you want</p>
                 <select class="form-control form-control-sm" id="Flavour">
             <br>
             <option>select flavour</option>
             <option value="Chicken Flavour">Chicken flavour</option>
             <option value="Hawaiian pizza">Hawaiian pizza</option>
-            <option value="Margherita Pizza">Margherita Pizza</option>
+            <option value="Margherita Pizza">Beef Pizza</option>
           </select>
                 <p>Choose the size of pizza you want</p>
                 <select class="form-control form-control-sm" id="Size">
             <br>
             <option>select size</option>
-            <option value="900">Large </option>
-            <option value="600"> Medium</option>
+            <option value="1000">Large </option>
+            <option value="700"> Medium</option>
             <option value="400">Small</option>
           </select>
                 <p>Choose crust</p>
                 <select class="form-control form-control-sm" id="Crust">
           <option>select crust</option>
-          <option value="150">Thin crust @ Ksh.150</option>
-          <option value="200">Thick crust @Ksh.200</option>
-          <option value="250">Stuffed crust @Ksh.250</option>
+          <option value="100">Crispy crust @ Ksh.100</option>
+          <option value="150">Stuffed crust @Ksh.150</option>
+          <option value="200">Gluten-free crust @Ksh.200</option>
         </select>
                 <p>Choose toppings</p>
                 <select class="form-control form-control-sm" id="Topping">
-          <option>select crust</option>
-          <option value="150">Potato @ Ksh.150</option>
-          <option value="170">Mushrooms @Ksh.170</option>
-          <option value="200">Black olives @Ksh.200</option>
+          <option>select toppings</option>
+          <option value="150">Pepperoni @ Ksh.150</option>
+          <option value="100">Onions @Ksh.100</option>
+          <option value="200">Pineapples @Ksh.200</option>
         </select>
 
             </div>
@@ -107,11 +107,11 @@
                         <form action="" id="checkoutForm">
                             <div class="form-group">
                                 <input type="text" id="name" class="form-control mb-3" placeholder="Name">
-                                <label for="delivery">Desired Delivery Option</label>
+                                <label for="delivery">Prefered Option</label>
                                 <select class="form-control" id="OptionDelivery" required>
-        <option value="deliver">Home Delivery?</option>
-        <option value="collect">Pick Up</option>
-        </select>
+                                   <option value="deliver">Home delivery</option>
+                                   <option value="collect">Pick up from store</option>
+                                </select>
                             </div>
                             <button type="submit" class="btn btn-success" id="final-option">Deliver</button>
                         </form>
