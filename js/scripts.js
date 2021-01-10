@@ -1,4 +1,4 @@
-var OrderNew = [];
+var Order = [];
 
 function Pizza(pizzaFlavour, pizzaSize, pizzaCrust, pizzaTopping, PizzaNumber) {
     this.pizzaFlavour = pizzaFlavour;
