@@ -60,6 +60,8 @@ ul.topnav li.left {
 
 .logo {
     font-style: italic;
+    text-align: center;
+    font-size: 50px;
 }
 
 .row {
@@ -83,7 +85,7 @@ ul.topnav li.left {
 
 .welcome {
     text-decoration-color: crimson;
-    font-size: 44px;
+    font-size: 100px;
 }
 
 .media {
