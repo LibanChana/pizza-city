@@ -1,5 +1,7 @@
 #PizzaCity
-This is apizza delivery website.
+
+This is a pizza delivery website.
+
 ##AUTHOR
 
 The code is written by Liban Chana . A sofware development student at Moringa School.
