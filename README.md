@@ -14,8 +14,7 @@ This project is created using html ,css and javascript languages.
 
 ##SET UP INSTRUCTION Ctrl + alt + t to open the terminal
 
-now git clone  https://libanchana.github.io/pizza-city/
-
+now git clone  https://github.com/LibanChana/pizza-city.git
 cd pizzacity README.md you can use code . or atom . to open it.
 
 ####CONTACT OF AUTHOR
