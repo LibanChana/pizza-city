@@ -8,7 +8,7 @@ The code is written by Liban Chana . A sofware development student at Moringa Sc
 
 ####DESCRIPTION OF THE PROJECT
 
-This is a website that enables one to order pizza online and have it deliverd to him at the comfort of his home.
+This is a website that enables one to order pizza online and have it deliverd to him at the comfort of his home or pick it from the store.
 
 ##LANGUAGES USED
 
