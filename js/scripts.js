@@ -34,7 +34,7 @@ Pizza.prototype.pizzaC = function() {
 Pizza.prototype.pizzaT = function() {
     if (this.pizzaTopping == 150) {
         return "Pepperoni"
-    } else if (this.pizzaTopping == 100) {
+    } else if (this.pizzaTopping == 120) {
         return "Onions"
     } else if (this.pizzaTopping == 200) {
         return "Pineapples"
@@ -155,5 +155,5 @@ $("#locationForm").submit(function(event) {
     $("#totalAmount").empty();
     $("#totalAmount").append(totalAmount);
     $(".TotalAmount").show();
-    alert("Dear " + NameOfCustomer + ": Your new total bill is Ksh. " + totalAmount + ". Your order will be delivered to " + estate + ", " + houseNumber + " in the next one hour." + " Make full payment on delivery." + "Feel free to reach out to us anytime for questions peraining our products and deliveries.");
+    alert(+"Dear " + NameOfCustomer + ": Your new total bill is Ksh. " + totalAmount + ". Your order will be delivered to " + estate + ", " + houseNumber + " in the next one hour." + " Make full payment on delivery." + "Feel free to reach out to us anytime for questions peraining our products and deliveries.");
 });
